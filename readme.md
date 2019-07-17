@@ -6,7 +6,8 @@
 パラグラフ=段落=pタグ  
 改行=brタグ=半角スペース2つ以上
 
-hello.  hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.
+hello.
+hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.hello.
 
 ---
 
@@ -42,3 +43,20 @@ ___
 - item1
 - item2
 - item3
+
+    スペース４つで箇条書きに段落？を合わせる
+
+---
+
+- item1
++ item2
+* item3
+
+# 強調
+hello. hello.  
+*hello. hello.*  
+_hello. hello._  
+**hello. hello.**  
+__hello. hello.__  
+
+*日本語は斜体にならないことが多い*
